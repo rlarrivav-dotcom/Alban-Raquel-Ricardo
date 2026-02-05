@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>William Shakespeare</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #800000;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 20px;
+      margin: 15px;
+      background-color: white;
+      border-radius: 8px;
+    }
+
+    h2 {
+      color: #800000;
+    }
+
+    img {
+      max-width: 300px;
+      display: block;
+      margin: 10px auto;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      display: block;
+      margin: 20px auto;
+      padding: 10px 20px;
+      background-color: #800000;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #a00000;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>William Shakespeare</h1>
+    <p>Figura clave de la literatura universal</p>
+  </header>
+
+  <nav>
+    <a href="#pagina1">Página 1</a>
+    <a href="#pagina2">Página 2</a>
+    <a href="#pagina3">Página 3</a>
+  </nav>
+<!-- Video embebido desde Google Drive --> <div style="text-align:center; margin-top:20px;"> <iframe src="https://drive.google.com/file/d/12z6jgrz66XCrKXiQpUrcRdUq1nzVrPIs/preview" width="640" height="360" allow="autoplay"></iframe> </div> </section>
+ 
+  <section id="pagina1"> <h2>Página 1 – Introducción</h2> <p> William Shakespeare es un escritor y dramaturgo reconocido por su gran influencia en la literatura y el teatro. A través de sus obras, explora emociones humanas como el amor, la ambición y el poder de una manera clara y cercana, lo que permite que sus historias sigan conectando con personas de todas las edades. Su trabajo continúa siendo estudiado y representado en todo el mundo, demostrando su importancia cultural y artística.</p> </section>
+
+  <section id="pagina2">
+    <h2>Página 2 – Vida y obras</h2>
+    <p>William Shakespeare es un escritor, poeta y dramaturgo inglés ampliamente reconocido por su enorme aporte a la literatura y al teatro. Nace en Stratford-upon-Avon, una pequeña ciudad de Inglaterra, donde desde joven muestra interés por las historias, el lenguaje y la observación de las personas que lo rodean. A lo largo de su vida, desarrolla una profunda habilidad para comprender las emociones humanas y transformarlas en relatos que conectan con el público.
+Durante su trayectoria, Shakespeare se dedica principalmente al teatro, escribiendo obras que se presentan en importantes escenarios y que atraen a personas de distintos niveles sociales. Sus textos destacan por tratar temas universales como el amor, el poder, la ambición, la traición, la amistad y el paso del tiempo. Gracias a esta variedad de temas, sus obras resultan fáciles de entender y cercanas, incluso para lectores y espectadores actuales.
+Shakespeare escribe tragedias, comedias y dramas históricos. Entre sus tragedias más conocidas se encuentran Romeo y Julieta, Hamlet y Macbeth, donde explora conflictos internos de los personajes y las consecuencias de sus decisiones. En sus comedias, utiliza el humor y los malentendidos para reflexionar sobre las relaciones humanas, mientras que en los dramas históricos relata hechos del pasado de Inglaterra de una manera entretenida y reflexiva.</p>
+</strong>Además de su trabajo como dramaturgo, Shakespeare también se destaca como poeta. Escribe numerosos sonetos en los que expresa sentimientos profundos relacionados con el amor, el paso del tiempo y la belleza. Estos poemas son valorados por su estilo claro y por la forma en que transmiten emociones de manera sencilla pero intensa.
+Uno de los aspectos más importantes de su obra es su contribución al idioma inglés. A través de sus escritos, introduce nuevas palabras y expresiones que continúan utilizándose en la actualidad. Su forma de escribir influye en la manera en que se cuentan historias y se construyen personajes, marcando un antes y un después en la literatura.
+En la actualidad, Shakespeare sigue activo a través de sus obras, que continúan siendo estudiadas en escuelas y universidades, y representadas en teatros de todo el mundo. Su legado permanece vivo gracias a su capacidad para retratar la naturaleza humana de forma honesta y comprensible. Por esta razón, William Shakespeare es considerado una figura fundamental de la cultura universal, cuyo trabajo mantiene su relevancia con el paso del tiempo.</p>
+  </section>
+
+  <section id="pagina3">
+    <h2>Página 3 – Legado y relevancia</h2>
+    <p>William Shakespeare es un escritor y dramaturgo que ha alcanzado grandes logros a lo largo de su carrera, convirtiéndose en una figura clave de la literatura mundial. Uno de sus principales logros es la creación de más de treinta obras teatrales, entre tragedias, comedias y dramas históricos, que continúan siendo leídas, estudiadas y representadas en teatros de todo el mundo. Otro logro importante es su capacidad para retratar las emociones humanas, como el amor, la ambición, los celos y el poder, de una forma clara y comprensible para cualquier público.
+Además, Shakespeare logra enriquecer el idioma inglés, ya que introduce nuevas palabras y expresiones que aún se utilizan en la actualidad.
+</p>
+    <p> Su influencia también se extiende más allá del teatro, ya que muchas de sus historias han sido adaptadas al cine, la televisión y la literatura moderna, demostrando que sus ideas siguen siendo actuales. Gracias a estos aportes, William Shakespeare mantiene una fuerte influencia cultural y artística, siendo una fuente de inspiración constante para escritores, estudiantes y artistas de distintas generaciones.</p>
+    <img src="portrait-of-william-shakespeare.webp" alt="Retrato de William Shakespeare">
+  </section>
+
+  <button onclick="mostrarFrase()">Ver frase célebre</button>
+  <p id="frase" style="text-align:center;"></p>
+
+  <script>
+    function mostrarFrase() {
+      const frase = "Ser o no ser, esa es la cuestión.";
+      document.getElementById("frase").textContent = frase;
+    }
+  </script>
+</body>
+</html>
